@@ -1,0 +1,117 @@
+{
+  "id": 1,
+  "title": "Omon qolish tili: 1-hafta",
+  "description": "Alifbo, talaffuz sirlari va ilk 100 ta eng ko'p ishlatiladigan ibora.",
+  "weeks": 1,
+  "lessons": [
+    {
+      "day": 1,
+      "title": "Aeroport va Birinchi Tanishuv",
+      "goal": "Rus alifbosining asosiy harflarini o'rganish va o'zini tanishtirish.",
+      "level": "A0",
+      "duration_minutes": 15,
+      "vocabulary": [
+        { "id": "v1", "ru": "Привет", "uz": "Salom", "transcription": "[Privet]" },
+        { "id": "v2", "ru": "Меня зовут", "uz": "Mening ismim", "transcription": "[Menya zovut]" },
+        { "id": "v3", "ru": "Я из Узбекистана", "uz": "Men O'zbekistondanman", "transcription": "[Ya iz Uzbekistana]" },
+        { "id": "v4", "ru": "Спасибо", "uz": "Rahmat", "transcription": "[Spasiba]" },
+        { "id": "v5", "ru": "Пожалуйста", "uz": "Marhamat / Arzimaydi", "transcription": "[Pajalusta]" },
+        { "id": "v6", "ru": "Да", "uz": "Ha", "transcription": "[Da]" },
+        { "id": "v7", "ru": "Нет", "uz": "Yo'q", "transcription": "[Net]" }
+      ],
+      "grammar_patterns": [
+        {
+          "id": "g1",
+          "pattern_ru": "Меня зовут [Имя]",
+          "pattern_uz": "Mening ismim [Ism]",
+          "explanation": "Bu tayyor qolip. Rus tilida o'z ismini aytish uchun faqat shu iborani yodlab olsangiz yetarli, kelishiklar haqida o'ylamang.",
+          "examples": [
+            { "ru": "Меня зовут Жасур.", "uz": "Mening ismim Jasur." }
+          ]
+        },
+        {
+          "id": "g2",
+          "pattern_ru": "Я из [Страна]",
+          "pattern_uz": "Men [Davlat]danman",
+          "explanation": "Qayerdanligingizni aytish uchun ishlatiladi.",
+          "examples": [
+            { "ru": "Я из Узбекистана.", "uz": "Men O'zbekistondanman." }
+          ]
+        }
+      ],
+      "story": {
+        "id": "s1",
+        "character": "Jasur",
+        "location": "Moskva Aeroporti (Sheremetyevo)",
+        "dialogue": [
+          {
+            "speaker": "Chegara xodimi",
+            "ru": "Здравствуйте! Ваш паспорт, пожалуйста.",
+            "uz": "Assalomu alaykum! Pasportingiz, marhamat."
+          },
+          {
+            "speaker": "Jasur",
+            "ru": "Здравствуйте. Вот мой паспорт. Меня зовут Жасур.",
+            "uz": "Assalomu alaykum. Mana mening pasportim. Mening ismim Jasur."
+          },
+          {
+            "speaker": "Chegara xodimi",
+            "ru": "Откуда вы?",
+            "uz": "Qayerdansiz?"
+          },
+          {
+            "speaker": "Jasur",
+            "ru": "Я из Узбекистана. Спасибо!",
+            "uz": "Men O'zbekistondanman. Rahmat!"
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": "e1",
+          "type": "multiple_choice",
+          "question": "Rus tilida 'Rahmat' qanday aytiladi?",
+          "options": ["Пожалуйста", "Спасибо", "Привет", "Да"],
+          "correct_answer": "Спасибо",
+          "points": 10
+        },
+        {
+          "id": "e2",
+          "type": "word_order",
+          "question": "Gapni to'g'ri tuzing: 'Mening ismim Jasur'",
+          "options": ["Жасур", "Меня", "зовут"],
+          "correct_answer": ["Меня", "зовут", "Жасур"],
+          "points": 15
+        },
+        {
+          "id": "e3",
+          "type": "fill_in_the_blank",
+          "question": "Men O'zbekistondanman: Я ___ Узбекистана.",
+          "options": ["в", "из", "на"],
+          "correct_answer": "из",
+          "points": 15
+        },
+        {
+          "id": "e4",
+          "type": "speak",
+          "question": "Ovoz chiqarib ayting: Меня зовут Жасур.",
+          "correct_answer": "Меня зовут Жасур",
+          "hint": "Mikrofonni bosing va gapni aniq ayting. AI sizni eshitadi.",
+          "points": 20
+        },
+        {
+          "id": "e5",
+          "type": "speak",
+          "question": "Ovoz chiqarib ayting: Я из Узбекистана.",
+          "correct_answer": "Я из Узбекистана",
+          "hint": "Talaffuzga e'tibor bering.",
+          "points": 20
+        }
+      ],
+      "unlock_condition": {
+        "min_accuracy": 80,
+        "min_spoken_sentences": 5
+      }
+    }
+  ]
+}

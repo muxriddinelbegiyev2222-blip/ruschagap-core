@@ -1,0 +1,92 @@
+{
+  "id": "ruschagap-90-day",
+  "title": "Rus tilini 90 kunda o'rganish xaritasi",
+  "description": "0 dan B1/B2 darajagacha. Pareto qonuni (80/20) va Serial effekti asosida qurilgan 12 haftalik dastur.",
+  "total_days": 90,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Omon qolish tili (Survival Russian)",
+      "description": "Alifbo, talaffuz va aeroportda, taksida kerak bo'ladigan eng muhim 100 ta ibora.",
+      "weeks": 1,
+      "days": "1-7"
+    },
+    {
+      "id": 2,
+      "title": "Tanishuv va Mehmonxona",
+      "description": "O'zingizni tanishtirish, yo'nalish so'rash va mehmonxonaga joylashish.",
+      "weeks": 2,
+      "days": "8-14"
+    },
+    {
+      "id": 3,
+      "title": "Kafe va Restoran",
+      "description": "Ovqat buyurtma qilish, hisobni to'lash va didga ko'ra tanlash.",
+      "weeks": 3,
+      "days": "15-21"
+    },
+    {
+      "id": 4,
+      "title": "Shahar bo'ylab sayohat",
+      "description": "Transport, chiptalar va yo'nalishlarni so'rash.",
+      "weeks": 4,
+      "days": "22-28"
+    },
+    {
+      "id": 5,
+      "title": "Xarid qilish",
+      "description": "Kiyim-kechak, sovg'alar va narx-navo haqida kelishish.",
+      "weeks": 5,
+      "days": "29-35"
+    },
+    {
+      "id": 6,
+      "title": "Vaqt va Raqamlar",
+      "description": "Soat necha bo'ldi, kunlar, oylar va rejalashtirish.",
+      "weeks": 6,
+      "days": "36-42"
+    },
+    {
+      "id": 7,
+      "title": "Shifokor va Favqulodda holatlar",
+      "description": "O'zingizni yomon his qilganingizda yordam so'rash.",
+      "weeks": 7,
+      "days": "43-49"
+    },
+    {
+      "id": 8,
+      "title": "Ish va Biznes (A2 daraja)",
+      "description": "Ish joyi, uchrashuvlar va rasmiy muloqot.",
+      "weeks": 8,
+      "days": "50-56"
+    },
+    {
+      "id": 9,
+      "title": "O'tgan zamon va Tajribalar",
+      "description": "O'tgan voqealarni hikoya qilib berish.",
+      "weeks": 9,
+      "days": "57-63"
+    },
+    {
+      "id": 10,
+      "title": "Kelasi zamon va Rejalar",
+      "description": "Kelajak haqida gapirish, orzular va maqsadlar.",
+      "weeks": 10,
+      "days": "64-70"
+    },
+    {
+      "id": 11,
+      "title": "Erkin muloqot (B1 daraja)",
+      "description": "Murakkab mavzular: san'at, texnologiya, jamiyat.",
+      "weeks": 11,
+      "days": "71-84"
+    },
+    {
+      "id": 12,
+      "title": "Yakuniy sayqal (B2 daraja)",
+      "description": "Idiomalar, iboralar va ona tilida so'zlashuvchidek gapirish.",
+      "weeks": 12,
+      "days": "85-90"
+    }
+  ]
+}
